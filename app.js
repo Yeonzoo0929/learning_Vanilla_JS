@@ -1,17 +1,9 @@
-const title = document.querySelector("div.hello:first-child h1");
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
 
-function handleTitleClick() {
-  title.style.color = "blue";
+function onLoginSubmit() {
+  const username = loginInput.value;
+  console.log(username);
 }
 
-function handleMouseEnter() {
-  title.innerText = "Mouse is here!";
-}
-
-function handleMouseLeave() {
-  title.innerText = "Mouse is gone!";
-}
-
-title.addEventListener("click", handleTitleClick);
-title.addEventListener("mouseenter", handleMouseEnter);
-title.addEventListener("mouseleave", handleMouseLeave);
+loginForm.addEventListener("submit", onLoginSubmit);
