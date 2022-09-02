@@ -1,4 +1,4 @@
-# Vanilla JS로 크롬 애플리케이션 제작하기
+# Vanilla JS로 Momentum 제작하기
 
 ## 기능소개
 
